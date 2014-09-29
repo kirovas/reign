@@ -204,6 +204,7 @@ section.wmu{
 }
 .wmu-item{
 	padding-bottom:20px;
+	position:relative;
 }
 .wmu-item.left{
 	float:left;
@@ -453,6 +454,11 @@ background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.0
   p, h2, h3 { orphans: 3; widows: 3; }
   h2, h3{ page-break-after: avoid; }
 }
+@media (min-width: 768px){
+.navbar-toggle {
+display: none;
+}
+}
 @media (min-width: 992px){
 .wrap{
 	width:768px;
@@ -462,6 +468,7 @@ background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.0
 	.wrap{
 	width:960px;
 	}
+	
  }
  
 /* Smartphones (portrait) ----------- */
@@ -469,15 +476,51 @@ background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.0
 and (max-width : 320px) {
     /* Styles */
  .top{height:auto;}
+ .carousel-caption h1{font-size: 60px;}
+ .carousel-caption p{font-size: 18px;}
+ .wmu-item.left, .wmu-item.right{
+		width: 100%;
+text-align: center;
+background:none;
+padding-right: 164px;
+margin-bottom: 30px;
+	}
+	.wmu-iwrap{
+		float:none;
+		display:inline-block;
+	}
+.w-text{margin-left:0px;}
+
+ .p-item-block{margin-left:auto;margin-right:auto;float:none;}
+ .bottom{height:auto;}
 }
+
  
 /* Smartphones (landscape) ----------- */
 @media only screen 
 and (min-width : 321px)
 and (max-width : 480px) {
     /* Styles */
+	
   .top{height:auto;}
   .wrap{width:100%;}
+   
+  .wmu-item.left, .wmu-item.right{
+		width: 50%;
+text-align: center;
+background:none;
+padding-right: 164px;
+margin-bottom: 30px;
+	}
+	.wmu-iwrap{
+		float:none;
+		display:inline-block;
+	}
+.w-text{margin-left:0px;}
+.carousel-caption h1 {font-size: 60px;}
+   .carousel-caption p {font-size: 18px;}
+    .p-item-block{margin-left:auto;margin-right:auto;float:none;}
+	.bottom{height:auto;}
 }
  
 /* iPads (portrait) ----------- */
@@ -485,8 +528,24 @@ and (max-width : 480px) {
 and (min-width : 481px)
 and (max-width : 768px) {
     /* Styles */
- 
+ .wmu-item.left, .wmu-item.right{
+		width: 50%;
+text-align: center;
+background:none;
+padding-right: 164px;
+margin-bottom: 30px;
+	}
+	.wmu-iwrap{
+		float:none;
+		display:inline-block;
+	}
+.w-text{margin-left:0px;}
+.carousel-caption h1{font-size: 60px;}
+ .carousel-caption p{font-size: 18px;}
+ .p-item-block{margin-left:auto;margin-right:auto;float:none;}
+ .bottom{height:auto;}
 }
+
  
 /* iPads (landscape) ----------- */
 @media only screen 
