@@ -178,8 +178,17 @@ position: absolute;
 	font-size:35px;
 	font-family: HelveticaNeueThin;
 }
-
-
+.carousel-control.left{
+	background:url(../images/arrow-left.png)no-repeat center center;
+	
+}
+.carousel-control.right{
+	background:url(../images/arrow-right.png)no-repeat center center;
+	
+}
+.carousel:hover .carousel-control.left{
+`	display:block;
+}
 /*content*/
 section.wmu{
 	background:#fff url(../images/shadow-wmu.png)no-repeat center bottom;
