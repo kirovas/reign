@@ -506,7 +506,7 @@ and (max-width : 480px) {
   .wrap{width:100%;}
    
   .wmu-item.left, .wmu-item.right{
-		width: 50%;
+		width: 100%;
 text-align: center;
 background:none;
 padding-right: 164px;
@@ -516,7 +516,7 @@ margin-bottom: 30px;
 		float:none;
 		display:inline-block;
 	}
-.w-text{margin-left:0px;}
+.w-text{margin-left: -25px;}
 .carousel-caption h1 {font-size: 60px;}
    .carousel-caption p {font-size: 18px;}
     .p-item-block{margin-left:auto;margin-right:auto;float:none;}
