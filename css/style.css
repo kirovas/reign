@@ -90,6 +90,7 @@ label {}
 /* ------------------------- Layout */
 .page{
 	background:url('../images/splash.jpg')no-repeat bottom center;
+	background-size: 100%;
 }
  .top{
 	width:100%;
