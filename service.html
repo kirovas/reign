@@ -4,12 +4,14 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>plans</title>
+    <title>Services</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 	<link href="css/animate.css" rel="stylesheet">
+	<!-- styles needed by jScrollPane -->
+<link type="text/css" href="css/jquery.jscrollpane.css" rel="stylesheet" media="all" />
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -42,10 +44,10 @@
 						  <ul class="nav navbar-nav">
 							<li ><a href="index.html">About us</a></li>
 							<li><a href="#">Reign With Us</a></li>
-							<li><a href="service.html">Services</a></li>
+							<li class="active"><a href="service.html">Services</a></li>
 							<li><a href="#">Partners</a></li>
 							<li><a href="#">Portfolio</a></li>
-							<li class="active"><a href="plans.html">Plans</a></li>
+							<li ><a href="plans.html">Plans</a></li>
 							<li><a href="#contact_us">Contact Us</a></li>
 						  </ul>
 						</div><!-- /.navbar-collapse -->
@@ -54,64 +56,58 @@
 				</div>
 			</div>
 		</div>
-		<section class="plans-wrap">
+		<section class="service-wrap">
 		<div class="container">
 			<div class="wrap">
-			<h2><span>Plans</span></h2>
-			<div class="p-content">
-				<div class="p-content-inner">
-					<div class="p-row">
-						<div class="col-p-left">
-							<div class="p-title">Launch</div>
-							<div class="p-image"><img src="images/launch-img.png" /></div>
-							<div class="p-bottom"><span>Starting at $1999</span></div>
+			<div class="s-bg">
+			<h2><span>SERVICES</span></h2>
+			<div class="s-content">
+				<div class="s-left">
+					<nav class="bs-docs-sidebar">
+        <ul id="sidebar" class="nav nav-stacked fixed">
+            <li>
+                <a href="#dev">Development</a>
+                <ul class="nav nav-stacked">
+                    <li><a href="#web">Web & Mobile Development</a></li>
+                    <li><a href="#ecommerce">Ecommerce Solutions</a></li>
+                </ul>
+            </li>
+            
+                <li><a href="#graphic">Graphic Design</a></li>
+				<li><a href="#marketing">Digital Marketing</a></li>
+            
+        </ul>
+    </nav>
+				</div>
+				<div class="s-right">
+					<div class="scroll-content">
+					<div class="cat">
+						<div class="cat-box">
+							<div class="cat-image"><img src="images/dev-cat.jpg" alt="" /></div>
+							<div class="cat-name"><a href="#dev">Development</a></div>
 						</div>
-						<div class="col-p-right">
-							<p>Kick-start your own online business with Reignmake's "Launch Plan." It's the perfect option if you want to get your local business online, and your budget is imited.</p>
-							<ul>
-							<li>Web development Up to 20 pages (without e-commerse)</li>
-							<li>Brand Strategy</li>
-							<li>Logo Design (3 options)</li>
-							<li>Creating communities in social networks (without promotion)</li>
-							<li>Content Strategy</li>
-							</ul>
+						<div class="cat-box">
+							<div class="cat-image"><img src="images/graph-cat.jpg" alt="" /></div>
+							<div class="cat-name"><a href="#dev">Graphic Design</a></div>
+						</div>
+						<div class="cat-box">
+							<div class="cat-image"><img src="images/market-cat.jpg" alt="" /></div>
+							<div class="cat-name"><a href="#dev">Digital Marketing</a></div>
 						</div>
 					</div>
-					<div class="p-row">
-						<div class="col-p-left">
-							<div class="p-title">Basic</div>
-							<div class="p-image"><img src="images/basic-img.png" /></div>
-							<div class="p-bottom"><span>Starting at $1999</span></div>
-						</div>
-						<div class="col-p-right">
-							<p>Kick-start your own online business with Reignmake's "Launch Plan." It's the perfect option if you want to get your local business online, and your budget is imited.</p>
-							<ul>
-							<li>Web development Up to 20 pages (without e-commerse)</li>
-							<li>Brand Strategy</li>
-							<li>Logo Design (3 options)</li>
-							<li>Creating communities in social networks (without promotion)</li>
-							<li>Content Strategy</li>
-							</ul>
-						</div>
-					</div>
-					<div class="p-row">
-						<div class="col-p-left">
-							<div class="p-title">Exclusive</div>
-							<div class="p-image"><img src="images/exclusive-img.png" /></div>
-							<div class="p-bottom"><span>Starting at $1999</span></div>
-						</div>
-						<div class="col-p-right">
-							<p>Kick-start your own online business with Reignmake's "Launch Plan." It's the perfect option if you want to get your local business online, and your budget is imited.</p>
-							<ul>
-							<li>Web development Up to 20 pages (without e-commerse)</li>
-							<li>Brand Strategy</li>
-							<li>Logo Design (3 options)</li>
-							<li>Creating communities in social networks (without promotion)</li>
-							<li>Content Strategy</li>
-							</ul>
-						</div>
+						<h3 id="dev">Development</h3>
+						<h4 >Web & Mobile Development</h4>
+						<p id="web">ReignMake will turn your existing business logic into a scalable and usable technological solution, supporting both startups and established businesses that need to upgrade their web presence. Instead of using templates, we provide our clients with the unique, custom-tailored websites that help to face business challenges and attract customers.</p>
+						<h4 >E-commerce Solutions</h4>
+
+						<p>In a fast-paced world now controlled by a consumer, e-commerce businesses need to find innovative ways to retain customers and increase their sales while bypassing all the distractions the web has to offer. We focus on helping you attain your business goals in online retail using up-to date technologies through launching or improving the online business.</p>
+
+						<h4 >Enterprise software development</h4>
+
+						<p>Our development teams are passionate about technology experts, who satisfy the needs of an organization with the purpose-designed computer software</p>
 					</div>
 				</div>
+			</div>
 			</div>
 			</div>
 		</div>
@@ -163,6 +159,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+	<!-- the mousewheel plugin - optional to provide mousewheel support -->
+<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+
+<!-- the jScrollPane script -->
+<script type="text/javascript" src="js/jquery.jscrollpane.js"></script>
 	<script src="js/script.js"></script>
   </body>
 </html>
