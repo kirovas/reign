@@ -420,13 +420,18 @@ margin-right: -35px;
 	margin-bottom:390px;
 }
 .s-bg{
-	background:url(../images/left-glass.png)no-repeat left;
+	background:url(../images/left-glass-s.png)no-repeat left;
 	overflow:hidden;
 	padding-top:30px;
 }
 .s-left{
 	float:left;
 	width:300px;
+	position:relative;
+	
+}
+.s-left:before, .s-left:after{
+	
 }
 .s-left ul{
 	margin:0px;
