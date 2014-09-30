@@ -19,7 +19,7 @@ $('.scroll-content').scrollspy({
 });
 $(function()
 {
-	$('.scroll-content').jScrollPane();
+	$('.scroll-content, .a-inner').jScrollPane();
 });
 });
 (function() {
@@ -34,5 +34,13 @@ $(function()
         return false;
       }
     }
+  });
+});
+$(window).load(function() {
+  $('.flexslider, .carousel-bottom').flexslider({
+    animation: "slide",
+    animationLoop: false,
+    itemWidth: 130,
+    itemMargin: 10
   });
 });
