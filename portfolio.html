@@ -253,5 +253,12 @@
 <link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />
 <script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
 	<script src="js/script.js"></script>
+	<script>
+		$(document).ready(function(){
+		$("a[rel^='prettyPhoto']").prettyPhoto({
+			theme: 'dark_rounded', /* light_rounded / dark_rounded / light_square / dark_square / facebook */
+		});
+	});
+	</script>
   </body>
 </html>

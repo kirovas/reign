@@ -44,8 +44,3 @@ $(window).load(function() {
     itemMargin: 10
   });
 });
-$(document).ready(function(){
-		$("a[rel^='prettyPhoto']").prettyPhoto({
-			theme: 'dark_rounded', /* light_rounded / dark_rounded / light_square / dark_square / facebook */
-		});
-	});
