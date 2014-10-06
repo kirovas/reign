@@ -715,6 +715,55 @@ margin-left:20px;
   -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
+
+/* Reign with us */
+.rwu-section{
+	margin-bottom:30px;
+	overflow:hidden;
+}
+.rwu-arrow-left{
+	background:url(../images/rwu-arrow.png)no-repeat center left;
+	padding:0px 80px;
+	overflow: hidden;
+}
+.rmu-item{
+	float:left;
+	padding-bottom:30px;
+	position:relative;
+}
+.rmu-item .w-text{
+	bottom: 10px;
+}
+.rmu-item.left{
+	margin-right:30px;
+}
+.rmu-item.right{
+	float:right;
+}
+.rwu-glass{
+	background:url(../images/rwu-glass.png)no-repeat bottom;
+	background-size:cover;
+	margin-bottom:30px;
+	box-shadow: 0px 0px 10px rgba(81,88,182,0.5);
+	padding:30px;
+}
+.rwu-inner-inner{
+	
+}
+.rwu-inner h4{
+	color:#4780d4;
+	font-size:24px;
+	font-family:'Arial', sans-serif;
+	
+}
+.rwu-inner p{
+	color:#4780d4;
+	font-size:14px;
+	font-family:'Arial', sans-serif;
+	margin-bottom:25px;
+	line-height:16px;
+}
+
 .bottom{
 	height:380px;
 	background-image: -moz-linear-gradient(top, #517cbf, #87a5d7);
@@ -903,6 +952,16 @@ margin-bottom: 30px;
  .bottom{height:auto;}
  .navbar-header{float:left}
  .s-bg{background:none;}
+ .rwu-arrow-left{
+	background:none;
+ }
+ .rmu-item.right{
+	float:left;
+ }
+ .rmu-item.left {
+margin-right: 0px;
+float:left;
+}
 }
 
  
@@ -935,6 +994,20 @@ margin-bottom: 30px;
 	.bottom{height:auto;}
 	.s-left{float:none;margin-left:auto;margin-right:auto;margin-bottom:20px;}
 	.s-bg{background:none;}
+	 .rwu-arrow-left{
+	background:none;
+	padding:0px;
+ }
+ .rmu-item.right{
+	float:left;
+ }
+ .rmu-item.left {
+margin-right: 10px;
+float:left;
+}
+	.rmu-item .w-text{
+		margin-left: -50px;
+	}
 }
  
 /* iPads (portrait) ----------- */
@@ -964,6 +1037,25 @@ margin-bottom: 30px;
  .bottom{height:auto;}
  .s-right{width:100%;}
  .s-bg{background:none;}
+  .rwu-arrow-left{
+	background:none;
+	padding:0px;
+ }
+ .rmu-item.right{
+	float:left;
+ }
+ .rmu-item.left {
+margin-right: 10px;
+float:left;
+}
+	.rmu-item .w-text{
+		margin-left: -50px;
+	}
+	.rwu-glass{
+		background:rgba(227,234,249,0.5);
+	}
+ 
+ 
 }
 
  
@@ -981,6 +1073,7 @@ display: block;
 	.navbar-header{float:none;}
 	.s-right{width:100%;}
 	.s-bg{background:none;}
+	.rwu-arrow-left{background:none;padding:0px;}
 }
  
 /* Larger screens ----------- */
