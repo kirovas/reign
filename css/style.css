@@ -722,7 +722,7 @@ margin-left:20px;
 	overflow:hidden;
 }
 .rwu-arrow-left{
-	background:url(../images/rwu-arrow.png)no-repeat center left;
+	background:url(../images/rwu-arrow.png)no-repeat 0px 0px;
 	padding:0px 80px;
 	overflow: hidden;
 }
